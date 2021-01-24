@@ -544,20 +544,24 @@
       }
     },
     {
+      "scope": ["string.quoted", "meta.jsx.children.js", "string.template.js"],
+      "settings": {
+        "foreground": "#ffffff88"
+      }
+    },
+    {
       "scope": [
         "support.type.property-name",
-        "string.quoted",
         "meta.object-literal.key",
         "source.coffee.embedded.source",
         "entity.name.section.markdown",
         "punctuation.definition.heading.markdown",
         "string.unquoted.plain.out.yaml",
-        "string.template.js",
         "string.interpolated.jade",
         "support.type.builtin.graphql"
       ],
       "settings": {
-        "foreground": "#f3d2fc"
+        "foreground": "#ffffff88"
       }
     },
     {
@@ -612,38 +616,28 @@
     },
     {
       "scope": [
-        "storage.type",
-        "keyword.control",
-        "keyword.other.important.css",
         "punctuation.definition.keyword",
         "punctuation.definition.directive",
         "storage.modifier.cs",
-        "keyword.other.class.cs",
-        "keyword.type.cs",
         "markup.italic.markdown",
         "punctuation.definition.italic.markdown",
-        "keyword.package.go",
-        "keyword.import.go",
-        "keyword.function.go",
-        "keyword.var.go",
-        "keyword.const.go",
         "meta.tag.sgml.doctype.html",
         "storage.modifier.java",
         "punctuation.definition.storage.type.objc",
         "storage.modifier.perl",
-        "keyword.other.DML.sql",
-        "keyword.other.alias.sql",
         "storage.modifier.async.js",
         "support.type.property-name.json",
         "punctuation.support.type.property-name.begin.json",
         "punctuation.support.type.property-name.end.json",
-        "keyword.other.definition.ini",
         "punctuation.definition.block.tag.jsdoc",
         "storage.modifier.js",
         "storage.modifier.ts",
         "storage.modifier.tsx",
-        "keyword.type.graphql",
-        "support.class.component.html"
+        "entity.name.function",
+        "support.class.component.html",
+        "meta.export.default.js",
+        "keyword.control.export.js",
+        "keyword.control.default.js"
       ],
       "settings": {
         "foreground": "#73f8c5"
@@ -661,7 +655,20 @@
     },
     {
       "scope": [
-        "entity.name.function",
+        "keyword.control",
+        "storage.type",
+        "keyword.other.important.css",
+        "keyword.other.class.cs",
+        "keyword.type.cs",
+        "keyword.package.go",
+        "keyword.import.go",
+        "keyword.function.go",
+        "keyword.var.go",
+        "keyword.const.go",
+        "keyword.other.DML.sql",
+        "keyword.other.alias.sql",
+        "keyword.other.definition.ini",
+        "keyword.type.graphql",
         "support.function",
         "variable.other.property",
         "punctuation.definition.string.begin.markdown",
@@ -679,7 +686,7 @@
         "variable.graphql"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ffffffee"
       }
     },
     {
@@ -741,7 +748,7 @@
         "meta.object-literal.key.js"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ffffffee"
       }
     },
     {
