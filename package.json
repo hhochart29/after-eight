@@ -1,0 +1,21 @@
+{
+    "name": "after-eight",
+    "displayName": "After eight",
+    "description": "After eight mint vscode color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "After Eight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/After Eight-color-theme.json"
+            }
+        ]
+    }
+}
