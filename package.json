@@ -1,8 +1,8 @@
 {
   "name": "after-eight",
   "displayName": "After eight",
-  "description": "After eight vscode color theme",
-  "version": "1.0.1",
+  "description": "A VSCode Theme inspired by After Eight & Mint colors",
+  "version": "1.0.3",
   "publisher": "hhochart29",
   "icon": "logo.png",
   "repository": "https://github.com/hhochart29/after-eight",
